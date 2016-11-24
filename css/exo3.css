@@ -1,0 +1,55 @@
+body{
+  background-image:url("../images/background1.jpg");
+  background-size: cover;
+}
+
+#myDiv{
+  margin: auto;
+  margin-top: 50px;
+  /*border: 1px solid #333333;*/
+  height: 300px;
+  width: 450px;
+  color: black;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3em;
+  background-color: rgba(100, 149, 237, 0.29);
+}
+
+button{
+  display: block;
+  margin: auto;
+  margin-top : 20px;
+  /*border: 1px solid #333333;*/
+  padding: 5px 15px 5px 15px;
+  background-color: rgba(255,255,255,.5);
+  font-family: "Dosis", cursive;
+  font-size: 1.2em;
+  border : none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  transition: all 1s;
+}
+
+#repert{
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: 150px;
+  /*border: 1px solid #333333;*/
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Dosis", cursive;
+  font-size: 1.3em;
+  background-color: rgba(100, 149, 237, 0.29);
+  overflow : scroll;
+}
+
+p{
+  padding : 0;
+  margin: 0;
+  margin-top:  3%;
+}
